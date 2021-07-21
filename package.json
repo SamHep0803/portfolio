@@ -1,0 +1,19 @@
+{
+    "author": "Samuel Hepworth <samhep0803@gmail.com>",
+    "devDependencies": {
+        "webpack": "^5.45.1",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "license": "MIT",
+    "main": "index.js",
+    "name": "portfolio-site",
+    "private": true,
+    "repository": "https://github.com/SamHep0803/portfolio.git",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack serve",
+        "watch": "webpack --watch"
+    },
+    "version": "1.0.0"
+}
