@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const profile = {
   name: "Sharif",
   age: 14,
