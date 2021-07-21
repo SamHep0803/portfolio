@@ -4,4 +4,9 @@ const profile = {
   email: "samhep0803@gmail.com",
 };
 
-console.log(profile);
+const testProfile = {
+  ...profile,
+  projects: 4,
+};
+
+console.log(testProfile);
