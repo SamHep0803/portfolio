@@ -1,14 +1,4 @@
-import "./styles/index.scss";
+import { render } from "react-dom";
+import App from "./components/App";
 
-const profile = {
-  name: "Sharif",
-  age: 14,
-  email: "samhep0803@gmail.com",
-};
-
-const testProfile = {
-  ...profile,
-  projects: 4,
-};
-
-console.log(testProfile);
+render(<App />, document.getElementById("root"));
