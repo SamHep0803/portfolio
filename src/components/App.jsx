@@ -5,13 +5,13 @@ import Profile from "./Profile";
 const App = () => {
   return (
     <>
-      <section className="profile"></section>
+      <section className="pfp"></section>
       <main>
         <section>
           <h1>Hello from React</h1>
         </section>
+        <Profile />
       </main>
-      <Profile />
     </>
   );
 };
